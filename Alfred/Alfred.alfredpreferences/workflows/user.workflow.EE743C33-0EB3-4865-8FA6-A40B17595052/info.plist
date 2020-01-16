@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.farrell.youtube.alfredworkflow</string>
+	<key>category</key>
+	<string>Internet</string>
+	<key>connections</key>
+	<dict>
+		<key>850CC2DA-6A31-479E-8736-FAE3939F6ED6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2BB6EB13-3582-43AD-8330-D52EE317087D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>BE642FE3-B3A0-4F92-8D78-04A34F263A39</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Download Video</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>85167D9C-AC12-4762-8D4B-F395BB65C044</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Download Audio</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D159E410-1741-4ABB-B676-CADD2EFF14C3</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Play with VLC</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>85167D9C-AC12-4762-8D4B-F395BB65C044</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>329CBF7E-C9FE-4DC3-B327-2681B35A24D6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9363F39A-FFFC-4C84-B9DF-1488B7688E3C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C55E4942-7CF2-43E5-8F15-73C2D2C4B642</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>986D4B18-2B25-44D9-AB82-59B3C350FA91</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2BB6EB13-3582-43AD-8330-D52EE317087D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>BE642FE3-B3A0-4F92-8D78-04A34F263A39</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Download Video</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>85167D9C-AC12-4762-8D4B-F395BB65C044</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Download Audio</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D159E410-1741-4ABB-B676-CADD2EFF14C3</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Play with VLC</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BE57A1DA-0301-42B6-B748-A4CD8C813547</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2BB6EB13-3582-43AD-8330-D52EE317087D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>BE642FE3-B3A0-4F92-8D78-04A34F263A39</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Download Video</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>85167D9C-AC12-4762-8D4B-F395BB65C044</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Download Audio</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D159E410-1741-4ABB-B676-CADD2EFF14C3</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Play with VLC</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BE642FE3-B3A0-4F92-8D78-04A34F263A39</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>329CBF7E-C9FE-4DC3-B327-2681B35A24D6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>will Farrell (@willfarrell)</string>
+	<key>description</key>
+	<string>Search for YouTube videos</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>YouTube (v1.8)</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>yt</string>
+				<key>subtext</key>
+				<string>Open YouTube in the Browser</string>
+				<key>text</key>
+				<string>Go To YouTube</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>9363F39A-FFFC-4C84-B9DF-1488B7688E3C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string>+</string>
+				<key>url</key>
+				<string>https://www.youtube.com/</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>C55E4942-7CF2-43E5-8F15-73C2D2C4B642</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ys</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>from youtube import search_videos
+
+# Use Googles default max results and order by relevance
+print(search_videos("{query}", 0, "relevance"))</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Search YouTube for '{query}'</string>
+				<key>title</key>
+				<string>YouTube Search</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>986D4B18-2B25-44D9-AB82-59B3C350FA91</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>2BB6EB13-3582-43AD-8330-D52EE317087D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>yt</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>from youtube_helper import youtube_helper
+
+print(youtube_helper("{query}"))</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Browse YouTube for ...</string>
+				<key>title</key>
+				<string>YouTube Browse</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>BE57A1DA-0301-42B6-B748-A4CD8C813547</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string># Video
+function assert_command_test {
+	local result=true;
+	cmd="$1"
+	
+	command -v $cmd &gt;/dev/null 2&gt;&amp;1 || {
+		result=false;
+	}
+
+	echo "$result"
+}
+
+uhome=$(printf "$HOME");
+url="{query}";
+if [ -z $url ]; then
+	echo "No url provided";
+elif [ $(assert_command_test 'youtube-dl') = true ]; then
+	youtube-dl -q -o "~/Music/iTunes/iTunes Media/Automatically Add to iTunes/%(title)s.%(ext)s" "$url";
+else
+	./youtube-dl -q -o "~/Music/iTunes/iTunes Media/Automatically Add to iTunes/%(title)s.%(ext)s" "$url";
+fi</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>BE642FE3-B3A0-4F92-8D78-04A34F263A39</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Check iTunes or ~/Music/iTunes/iTunes Media/Automatically Add to iTunes/</string>
+				<key>title</key>
+				<string>Youtube Downloaded</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>329CBF7E-C9FE-4DC3-B327-2681B35A24D6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>yt</string>
+				<key>subtext</key>
+				<string>Download, press ALT for Video, CTRL for Audio</string>
+				<key>text</key>
+				<string>YouTube URL</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>850CC2DA-6A31-479E-8736-FAE3939F6ED6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string># Audio
+function assert_command_test {
+	local result=true;
+	cmd="$1"
+	
+	command -v $cmd &gt;/dev/null 2&gt;&amp;1 || {
+		result=false;
+	}
+
+	echo "$result"
+}
+
+uhome=$(printf "$HOME");
+url="{query}";
+if [ -z $url ]; then
+	echo "No url provided";
+elif [ $(assert_command_test 'youtube-dl') = true ]; then
+	youtube-dl -q -o "~/Music/iTunes/iTunes Media/Automatically Add to iTunes/%(title)s.%(ext)s" "$url" --extract-audio --audio-format mp3;
+else
+	./youtube-dl -q -o "~/Music/iTunes/iTunes Media/Automatically Add to iTunes/%(title)s.%(ext)s" "$url" --extract-audio --audio-format mp3;
+fi</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>85167D9C-AC12-4762-8D4B-F395BB65C044</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>tell application "VLC"
+	activate
+		GetURL "{query}"
+		delay 1
+	activate
+end tell</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D159E410-1741-4ABB-B676-CADD2EFF14C3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>2BB6EB13-3582-43AD-8330-D52EE317087D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<real>150</real>
+		</dict>
+		<key>329CBF7E-C9FE-4DC3-B327-2681B35A24D6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>700</integer>
+			<key>ypos</key>
+			<real>330</real>
+		</dict>
+		<key>850CC2DA-6A31-479E-8736-FAE3939F6ED6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<real>390</real>
+		</dict>
+		<key>85167D9C-AC12-4762-8D4B-F395BB65C044</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<real>390</real>
+		</dict>
+		<key>9363F39A-FFFC-4C84-B9DF-1488B7688E3C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>986D4B18-2B25-44D9-AB82-59B3C350FA91</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<real>150</real>
+		</dict>
+		<key>BE57A1DA-0301-42B6-B748-A4CD8C813547</key>
+		<dict>
+			<key>xpos</key>
+			<integer>300</integer>
+			<key>ypos</key>
+			<real>270</real>
+		</dict>
+		<key>BE642FE3-B3A0-4F92-8D78-04A34F263A39</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<real>270</real>
+		</dict>
+		<key>C55E4942-7CF2-43E5-8F15-73C2D2C4B642</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>D159E410-1741-4ABB-B676-CADD2EFF14C3</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<real>510</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>github.com/willfarrell</string>
+</dict>
+</plist>

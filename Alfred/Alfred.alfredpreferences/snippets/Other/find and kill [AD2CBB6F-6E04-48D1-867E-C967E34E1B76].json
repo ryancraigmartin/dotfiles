@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "sudo lsof -i tcp:",
+    "uid" : "AD2CBB6F-6E04-48D1-867E-C967E34E1B76",
+    "name" : "find and kill",
+    "keyword" : "fak"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "fmt.Println({cursor})",
+    "uid" : "6A39516F-5902-40C2-B7CE-1FB6226C80A8",
+    "name" : "fmt.Println",
+    "keyword" : "fl"
+  }
+}

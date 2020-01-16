@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>downloads.johanyu.alfred</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>AC52EA8A-1F2F-4A59-A914-6000DE7E4BDC</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FDEF4CF2-C6A2-499C-A9BA-708077071BE8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Johan Yu</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Open Last Downloaded File</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># edited from: https://ryanmo.co/2014/11/15/a-better-show-downloads-folder-with-alfred/
+
+DOWNLOADS="$HOME/Downloads"
+
+# Lists the name and date added for all the files in the Downloads folder
+RECENT=$(mdls -name kMDItemFSName -name kMDItemDateAdded ~/Downloads/* | \
+
+# Looks at the next line and removes any newlines, which puts the name and date added all on one line
+sed 'N;s/\n//' | \
+
+# Returns the name and date added in a nice format like "2014-11-15 19:36:28 "Arq.zip""
+awk '{print $3 " " $4 " " substr($0,index($0,$7))}' | \
+
+# Sorts the lines
+sort -r | \
+
+# Splits the lines on a quotation mark and returns the second result (the filename)
+cut -d'"' -f2 | \
+
+# Gives the top item in the list, which is the most recently added file
+head -n1)
+
+# Reveals the file instead of opening it in OS X.
+open "$DOWNLOADS/$RECENT"
+
+#echo "${RECENT##*/}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>FDEF4CF2-C6A2-499C-A9BA-708077071BE8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>dl</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Open Last Downloaded File</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>AC52EA8A-1F2F-4A59-A914-6000DE7E4BDC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>AC52EA8A-1F2F-4A59-A914-6000DE7E4BDC</key>
+		<dict>
+			<key>xpos</key>
+			<integer>110</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>FDEF4CF2-C6A2-499C-A9BA-708077071BE8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "copy(JSON.stringify(temp1, null, 1))",
+    "uid" : "FBB1C994-5E46-409E-A543-E38A099C32A7",
+    "name" : "copy stringify",
+    "keyword" : "cs"
+  }
+}

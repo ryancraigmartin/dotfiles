@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "it('adds 1 + 2 to equal 3', () => {\n  expect((1 + 2)).toBe(3);\n});",
+    "uid" : "FEEF667F-5252-4232-81BB-7AF52E43A282",
+    "name" : "pass",
+    "keyword" : "pass"
+  }
+}
