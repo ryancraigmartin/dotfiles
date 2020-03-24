@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.gilbarbara.mdn-search</string>
-	<key>category</key>
-	<string>CareCloud</string>
 	<key>connections</key>
 	<dict>
 		<key>B8068536-AE17-4368-AB7E-9AB402E79AAB</key>
@@ -62,6 +60,8 @@
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -100,7 +100,7 @@
 			<key>uid</key>
 			<string>B8068536-AE17-4368-AB7E-9AB402E79AAB</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>

@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string></string>
-	<key>category</key>
-	<string>CareCloud</string>
 	<key>connections</key>
 	<dict>
 		<key>098AC563-B480-403F-8E7E-5976DBF49FFB</key>

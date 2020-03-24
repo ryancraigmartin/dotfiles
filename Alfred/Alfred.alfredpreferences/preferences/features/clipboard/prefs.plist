@@ -10,6 +10,8 @@
 	<integer>3</integer>
 	<key>snippetKeyword</key>
 	<string>sn</string>
+	<key>snippetMatchWordBased</key>
+	<false/>
 	<key>viewerKeyword</key>
 	<string>cb</string>
 </dict>
