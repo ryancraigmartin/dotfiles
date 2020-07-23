@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "prettyjson.render({cursor})",
-    "uid" : "E7246039-1C64-433B-A6F6-1DB3EA126BE4",
-    "name" : "prettyjson",
-    "keyword" : "pj"
-  }
-}

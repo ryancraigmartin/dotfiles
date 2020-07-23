@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "console.log(prettyjson.render(response{cursor}, {}))",
-    "uid" : "439C63A8-3A3D-4857-8644-66A42C776AF2",
-    "name" : "clpj-",
-    "keyword" : "cpj"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "if err != nil {\n\tlog.Print(err)\n\thttp.Error(w, err.Error(), http.StatusBadRequest)\n\treturn\n}",
-    "uid" : "7CDDD627-FF13-4E1E-9D53-99230CD22C2D",
-    "name" : "",
-    "keyword" : "ie"
-  }
-}
