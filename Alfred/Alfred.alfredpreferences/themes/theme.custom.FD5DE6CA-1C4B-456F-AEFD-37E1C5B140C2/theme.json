@@ -1,7 +1,7 @@
 {
   "alfredtheme" : {
     "result" : {
-      "textSpacing" : 8,
+      "textSpacing" : 5,
       "subtext" : {
         "size" : 12,
         "colorSelected" : "#A5AACDFF",
@@ -10,23 +10,23 @@
       },
       "shortcut" : {
         "size" : 25,
-        "colorSelected" : "#FFCD00FF",
+        "colorSelected" : "#8FBAFFFF",
         "font" : "System",
         "color" : "#C78EECFF"
       },
-      "backgroundSelected" : "#4E537966",
+      "backgroundSelected" : "#676C96FF",
       "text" : {
         "size" : 18,
-        "colorSelected" : "#00EB69FF",
+        "colorSelected" : "#A5AACDFF",
         "font" : "System",
-        "color" : "#74CCACFF"
+        "color" : "#C78EECFF"
       },
-      "iconPaddingHorizontal" : 24,
+      "iconPaddingHorizontal" : 11,
       "paddingVertical" : 7,
       "iconSize" : 40
     },
     "search" : {
-      "paddingVertical" : 2,
+      "paddingVertical" : 1,
       "background" : "#7D5B9C00",
       "spacing" : 10,
       "text" : {
@@ -40,12 +40,12 @@
     "window" : {
       "color" : "#3D4360EA",
       "paddingHorizontal" : 0,
-      "width" : 780,
+      "width" : 705,
       "borderPadding" : 0,
       "borderColor" : "#00000000",
-      "blur" : 40,
+      "blur" : 0,
       "roundness" : 20,
-      "paddingVertical" : 0
+      "paddingVertical" : 10
     },
     "credit" : "Ryan Craig Martin \/ Doug C. Hardester",
     "separator" : {
@@ -54,7 +54,7 @@
     },
     "scrollbar" : {
       "color" : "#656C9680",
-      "thickness" : 6
+      "thickness" : 9
     },
     "name" : "RCM Palenight"
   }
