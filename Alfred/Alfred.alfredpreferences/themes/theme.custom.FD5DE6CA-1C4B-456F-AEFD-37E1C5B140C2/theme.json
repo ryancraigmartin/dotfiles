@@ -16,12 +16,12 @@
       },
       "backgroundSelected" : "#676C96FF",
       "text" : {
-        "size" : 18,
+        "size" : 23,
         "colorSelected" : "#A5AACDFF",
         "font" : "System",
         "color" : "#C78EECFF"
       },
-      "iconPaddingHorizontal" : 11,
+      "iconPaddingHorizontal" : 17,
       "paddingVertical" : 7,
       "iconSize" : 40
     },
@@ -38,14 +38,14 @@
       "backgroundSelected" : "#00B0E9FF"
     },
     "window" : {
-      "color" : "#3D4360EA",
-      "paddingHorizontal" : 0,
+      "color" : "#464D70C5",
+      "paddingHorizontal" : 25,
       "width" : 705,
-      "borderPadding" : 0,
+      "borderPadding" : 37,
       "borderColor" : "#00000000",
       "blur" : 0,
       "roundness" : 20,
-      "paddingVertical" : 10
+      "paddingVertical" : 12
     },
     "credit" : "Ryan Craig Martin \/ Doug C. Hardester",
     "separator" : {
@@ -54,7 +54,7 @@
     },
     "scrollbar" : {
       "color" : "#656C9680",
-      "thickness" : 9
+      "thickness" : 11
     },
     "name" : "RCM Palenight"
   }

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "rm -rf node_modules && rm -rf package.lock && ni",
+    "uid" : "D6A74EC8-DF40-4060-BFAE-B9DB0512D043",
+    "name" : "rm -rf",
+    "keyword" : "rmn"
+  }
+}
