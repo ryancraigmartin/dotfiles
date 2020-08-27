@@ -2,7 +2,7 @@
   "alfredsnippet" : {
     "snippet" : "rm -rf node_modules && rm -rf yarn.lock && y",
     "uid" : "A92CE925-F24F-485F-B7A2-FD0DD24DC00B",
-    "name" : "rm -rf",
+    "name" : "rm -rf yarn",
     "keyword" : "rmy"
   }
 }
