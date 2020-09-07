@@ -2,19 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>hideAfterSelectingSong</key>
+	<key>backEnabled</key>
 	<false/>
-	<key>includePodcasts</key>
+	<key>nextEnabled</key>
 	<false/>
-	<key>indexUntickedTracks</key>
+	<key>playpauseEnabled</key>
 	<false/>
-	<key>keywordEnabled</key>
+	<key>previousEnabled</key>
 	<false/>
-	<key>largerRandomAlbumsOnly</key>
+	<key>randomEnabled</key>
 	<false/>
-	<key>showPlaylists</key>
+	<key>volmaxEnabled</key>
 	<false/>
-	<key>usePlaylist</key>
+	<key>volmidEnabled</key>
+	<false/>
+	<key>volminEnabled</key>
 	<false/>
 </dict>
 </plist>

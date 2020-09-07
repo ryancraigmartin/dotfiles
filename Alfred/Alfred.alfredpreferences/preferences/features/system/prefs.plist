@@ -8,9 +8,27 @@
 	<string>et</string>
 	<key>lockKeyword</key>
 	<string>lk</string>
+	<key>quitallConfirm</key>
+	<true/>
+	<key>quitallKeyword</key>
+	<string>qa</string>
+	<key>restartConfirm</key>
+	<true/>
+	<key>restartKeyword</key>
+	<string>res</string>
 	<key>screensaverKeyword</key>
 	<string>ss</string>
 	<key>showtrashKeyword</key>
 	<string>t</string>
+	<key>shutdownConfirm</key>
+	<true/>
+	<key>shutdownKeyword</key>
+	<string>sd</string>
+	<key>volumedownKeyword</key>
+	<string>vd</string>
+	<key>volumemuteKeyword</key>
+	<string>mu</string>
+	<key>volumeupKeyword</key>
+	<string>vu</string>
 </dict>
 </plist>
