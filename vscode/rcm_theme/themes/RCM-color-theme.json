@@ -1,6 +1,6 @@
 {
-  "name": "RyanCraigMartin",
   "type": "dark",
+  "name": "RyanCraigMartin",
   "colors": {
     "activityBar.foreground": "#03a157",
     "activityBar.background": "#1a1d25",
@@ -57,7 +57,7 @@
     "editorGutter.modifiedBackground": "#a68952",
     "editorGutter.deletedBackground": "#350000",
     "editorGutter.background": "#1E2229",
-    "editorGutter.commentRangeForeground": "#c5c5c5",
+    // "editorGutter.commentRangeForeground": "#c5c5c5",
     "editorHint.foreground": "#eeeeeeb3",
     "editorHoverWidget.background": "#1E2229",
     "editorHoverWidget.border": "#2e333b",
@@ -248,7 +248,7 @@
     "titleBar.inactiveForeground": "#494949",
     "listFilterWidget.background": "#653723",
     "listFilterWidget.noMatchesOutline": "#be1100",
-    "listFilterWidget.outline": "#000",
+    "listFilterWidget.outline": "#1E2229",
     "statusBarItem.activeBackground": "#ffffff2e",
     "statusBarItem.hoverBackground": "#ffffff1f",
     "statusBarItem.prominentBackground": "#03a157",
@@ -258,8 +258,8 @@
     "gitlens.gutterUncommittedForegroundColor": "#00bcf299",
     "gitlens.lineHighlightBackgroundColor": "#00bcf233",
     "gitlens.lineHighlightOverviewRulerColor": "#00bcf299",
-    "gitlens.trailingLineBackgroundColor": "#000",
-    "gitlens.trailingLineForegroundColor": "#99999959"
+    "gitlens.trailingLineBackgroundColor": "#1E2229",
+    "gitlens.trailingLineForegroundColor": "#99999549"
   },
   "tokenColors": [
     {
@@ -284,6 +284,16 @@
       ],
       "settings": {
         "foreground": "#e6c19a"
+      }
+    },
+    {
+      "name": "Comments",
+      "scope": [
+        "comment.line.double-slash"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#8e8e8f77"
       }
     },
     {
@@ -366,7 +376,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#fc81b0"
+        "foreground": "#F76DAB"
       }
     },
     {
@@ -712,7 +722,7 @@
         "punctuation.definition.list_item.markdown"
       ],
       "settings": {
-        "foreground": "#A6ACCD"
+        "foreground": "#d3d6e4"
       }
     },
     {
@@ -731,6 +741,24 @@
       ],
       "settings": {
         "foreground": "#4E5579"
+      }
+    },
+    {
+      "name": "Markdown --- Timestamp",
+      "scope": [
+        "constant.other.timestamp.yaml"
+      ],
+      "settings": {
+        "foreground": "#eace92"
+      }
+    },
+    {
+      "name": "Markdown --- Headers",
+      "scope": [
+        "meta.embedded.block.frontmatter entity.name.tag"
+      ],
+      "settings": {
+        "foreground": "#C792EA"
       }
     },
     {
@@ -796,7 +824,7 @@
       ],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#F78C6C"
+        "foreground": "#22699b"
       }
     },
     {
