@@ -86,7 +86,7 @@ open "$DOWNLOADS/$RECENT"
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>dl</string>
+				<string>ldl</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
