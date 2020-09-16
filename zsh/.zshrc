@@ -1,33 +1,36 @@
-eval "$(rbenv init -)"
-PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
-export PATH
+export PATH="/usr/local/bin:$PATH"
 export ZSH="/Users/ryan/.oh-my-zsh"
-ZSH_THEME="powerlevel10k/powerlevel10k"
-
-DISABLE_AUTO_UPDATE="false"
-
 export UPDATE_ZSH_DAYS=1
-
-ENABLE_CORRECTION="true"
-
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+ZSH_THEME="powerlevel10k/powerlevel10k"
+DISABLE_AUTO_UPDATE="false"
+ENABLE_CORRECTION="false"
 COMPLETION_WAITING_DOTS="true"
 
 plugins=(
-  git
-  z
-  yarn
-  npm
-  npx
-  nvm
-  node
-  zsh-autosuggestions
+  github
+  repo
+  web-search
+  yii2
+  jsontools
+  vscode
+  copyfile
+  extract
+  catimg
+  history
+  thefuck
+  urltools
+  copydir
+  rand-quote
+  osx
+  zsh_reload
+  per-directory-history
+  last-working-dir
+  sudo
 )
 
-# YT
-alias you="youtube-dl --embed-thumbnail --ignore-errors -f bestaudio --extract-audio --audio-format best -o '~/Music/youtube/%(title)s.%(ext)s'"
-
   # Git
-alias gc="git commit"
+alias gc="git commit -m"
 alias gcl="git clone"
 alias gs="git status"
 alias gd="git diff"
@@ -47,7 +50,10 @@ alias gra="git rebase --abort"
 # NPM
 alias ni="npm i"
 alias nci="npm ci"
-alias ng="npm i -g"
+alias nig="npm i -g"
+alias nr="npm run"
+alias ncl="nr clean"
+alias nd="nr dev"
 alias nu="npm uninstall"
 alias ns="npm start"
 alias nins="npm i && npm start"
@@ -86,6 +92,7 @@ alias yci="jest --ci --reporters='./onslaught-reporter.js'"
 # Gatsby
 alias gad='gatsby develop'
 alias ygd='y && gad'
+alias ngd='npm i && gad'
 
 # React
 alias cra='create-react-app'
@@ -94,10 +101,10 @@ alias cra='create-react-app'
 alias as='ng serve'
 
 # Go
-alias gt="go test -v "
-alias grm="go run main.go "
 alias gog="go get"
 alias gf="go fmt ./..."
+alias gt="go test -v "
+alias grm="go run main.go "
 
 # DIR Stuff
 alias mkcd='foo(){ mkdir -p "$1"; cd "$1" }; foo'
@@ -106,21 +113,27 @@ alias ...='cd ../..'
 alias ,='cd'
 alias ,,='cd ..'
 alias ,,,='cd ../..'
-# alias ll='ls -la'
-# alias ld='ls -d */'
-# alias ls="colorls"
-# alias lc="colorls -lA --sd"
+alias ls='exa --color="always" --icons'
+alias ld='exa -d * */* --color="always" --icons'
+alias ll='exa -la --color="always" --icons'
+alias lc='exa -lA --sd --color="always" --icons'
+alias lad='exa -lr | more --colo="always" --icons'
 
 # z stuff
 alias de="z Desktop"
 alias dl="z Downloads"
+alias pi="z Pictures"
+alias mu="z Music"
+alias mo="z Movies"
 
 # Random
+alias t="trash"
 alias b="bat"
 alias fk="fkill"
 alias c="clear"
 alias c.="code ."
 alias cz="code ~/.zshrc"
+alias czv="vim ~/.zshrc"
 alias sz="source ~/.zshrc"
 alias g='googler -n 10 -c en -l en'
 alias weather="curl http://wttr.in/~Miami+Florida"
@@ -128,61 +141,21 @@ alias svim='sudo nvim'
 alias myip="curl http://ipecho.net/plain; echo"
 alias h='history'
 alias bu="brew update && brew upgrade"
-alias brewu="brew -v update; brew upgrade --force-bottle --cleanup; brew cleanup; brew cask cleanup; brew prune; brew doctor; npm-check -g -u"
+alias brewski="brew -v update; brew upgrade; brew cleanup; brew cask cleanup; brew doctor; npm-check -g -u"
 
-source $ZSH/oh-my-zsh.sh
+#  Postgres
+alias pgs="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
+alias pgst="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source /Users/ryan/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# plugins=(
-  # github
-  # repo
-  # web-search
-  # yii2
-  # jsontools
-  # vscode
-  # copyfile
-  # extract
-  # catimg
-  # history
-  # thefuck
-  # urltools
-  # copydir
-  # rand-quote
-  # osx
-  # zsh_reload
-  # per-directory-history
-  # ls
-  # last-working-dir
-  # sudo
-# )
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 
-# # The next line updates PATH for the Google Cloud SDK.
-# if [ -f '/Users/ryan/google-cloud-sdk/path.zsh.inc' ];
-#   then . '/Users/ryan/google-cloud-sdk/path.zsh.inc';
-# fi
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/ryan/.sdkman"
+[[ -s "/Users/ryan/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/ryan/.sdkman/bin/sdkman-init.sh"
 
-# # The next line enables shell command completion for gcloud.
-# if [ -f '/Users/ryan/google-cloud-sdk/completion.zsh.inc' ];
-#   then . '/Users/ryan/google-cloud-sdk/completion.zsh.inc';
-# fi
-# source $(dirname $(gem which colorls))/tab_complete.sh
-source ~/.bash_profile;
-# source "$(brew --prefix)/etc/profile.d/z.sh"
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/ryan/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/ryan/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/ryan/opt/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/ryan/opt/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
+source $ZSH/oh-my-zsh.sh
