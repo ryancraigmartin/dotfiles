@@ -72,6 +72,10 @@ alias ycc="yarn cache clean"
 alias yanl="yarn add --no-lockfile"
 alias yui="yarn upgrade-interactive"
 
+# Node Modules
+alias fnm="find . -name "node_modules" -type d -prune | xargs du -chs"
+alias frnm="find . -name "node_modules" -type d -prune -exec rm -rf '{}' +"
+
 # Docker
 alias dps="docker ps"
 alias dcu="docker-compose up"
