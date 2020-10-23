@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "This commit includes the following: \t\n\n* {cursor}\n*",
+    "uid" : "33F2881E-BB1E-4794-BB18-21FE08AEFA4B",
+    "name" : "this commit",
+    "keyword" : "tc"
+  }
+}
