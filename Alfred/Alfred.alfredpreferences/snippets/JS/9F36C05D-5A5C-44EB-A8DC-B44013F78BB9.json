@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "JSON.stringify({cursor}, null, 2)",
+    "uid" : "9F36C05D-5A5C-44EB-A8DC-B44013F78BB9",
+    "name" : "",
+    "keyword" : "js"
+  }
+}
