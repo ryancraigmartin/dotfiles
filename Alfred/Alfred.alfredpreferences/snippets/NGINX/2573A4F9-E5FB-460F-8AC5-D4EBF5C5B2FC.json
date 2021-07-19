@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "sudo rm -rf \/etc\/nginx\/nginx.conf && sudo touch \/etc\/nginx\/nginx.conf && sudo nano \/etc\/nginx\/nginx.conf",
+    "uid" : "2573A4F9-E5FB-460F-8AC5-D4EBF5C5B2FC",
+    "name" : "",
+    "keyword" : "rnc"
+  }
+}

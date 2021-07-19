@@ -1,3 +1,7 @@
+# ---------------------------------------------------------
+# Zsh and terminal configuration by RyanCraigMartin.
+# ---------------------------------------------------------
+
 export PATH="/usr/local/bin:$PATH"
 export ZSH="/Users/ryan/.oh-my-zsh"
 export UPDATE_ZSH_DAYS=1
@@ -124,6 +128,8 @@ alias ls='exa --color="always" --icons'
 alias mkcd='foo(){ mkdir -p "$1"; cd "$1" }; foo'
 
 # Z Stuff
+alias d="z Desktop"
+alias dl="z Download"
 alias de="z Desktop"
 alias dl="z Downloads"
 alias mo="z Movies"
@@ -131,6 +137,7 @@ alias mu="z Music"
 alias pi="z Pictures"
 
 # Random
+alias ~="cd ~"
 alias b="bat"
 alias brewski="brew -v update; brew upgrade; brew cleanup; brew cask cleanup; brew doctor; npm-check -g -u"
 alias bu="brew update && brew upgrade"
@@ -146,6 +153,9 @@ alias svim='sudo nvim'
 alias sz="source ~/.zshrc"
 alias t="trash"
 alias weather="curl http://wttr.in/~Miami+Florida"
+
+# Get public ip
+alias pubip="curl -w '\n' https://api.ipify.org"
 
 # Postgres
 alias pgs="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist"
@@ -166,6 +176,19 @@ alias twit="open -a /Applications/Twitterific.app"
 alias zoom="open -a /Applications/zoom.us.app"
 alias spot="open -a /Applications/Spotify.app"
 alias pcast="open -a /Applications/'Pocket Casts.app'"
+
+# Functions
+
+# create a Node.js project
+create-project () {
+  mkdir -p "$@" && cd "$_";
+  git init
+  npx license $(npm get init.license) -o "$(npm get init.author.name)" > LICENSE
+  npx gitignore node
+  npm init -y
+  git add -A
+  git commit -m "Initial commit"
+}
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source /Users/ryan/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

@@ -22,12 +22,13 @@
         "color" : "#C78EECFF"
       },
       "iconPaddingHorizontal" : 17,
+      "roundness" : 0,
       "paddingVertical" : 7,
       "iconSize" : 40
     },
     "search" : {
-      "paddingVertical" : 1,
-      "background" : "#7D5B9C00",
+      "backgroundSelected" : "#00B0E9FF",
+      "paddingHorizontal" : 8,
       "spacing" : 10,
       "text" : {
         "size" : 32,
@@ -35,10 +36,12 @@
         "font" : "System",
         "color" : "#FEFFFEFF"
       },
-      "backgroundSelected" : "#00B0E9FF"
+      "background" : "#7D5B9C00",
+      "roundness" : 0,
+      "paddingVertical" : 1
     },
     "window" : {
-      "color" : "#464D70C5",
+      "color" : "#464D709E",
       "paddingHorizontal" : 25,
       "width" : 705,
       "borderPadding" : 37,
