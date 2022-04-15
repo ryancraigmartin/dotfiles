@@ -5,6 +5,9 @@ echo 'Installing Homebrew'
 echo 'Installing wget'
 brew install wget
 
+echo 'Installing mas-cli'
+brew install mas
+
 echo 'Installing jq'
 brew install jq
 
