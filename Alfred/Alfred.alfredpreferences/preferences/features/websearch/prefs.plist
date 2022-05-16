@@ -13,7 +13,7 @@
 			<key>spaces</key>
 			<string>-</string>
 			<key>text</key>
-			<string>Giphy</string>
+			<string>Giphy Search</string>
 			<key>url</key>
 			<string>https://giphy.com/search/{query}</string>
 			<key>utf8</key>
@@ -26,9 +26,9 @@
 			<key>keyword</key>
 			<string>ng</string>
 			<key>text</key>
-			<string>Angular</string>
+			<string>Search Angular API docs</string>
 			<key>url</key>
-			<string>https://angular.io/api?query={query]</string>
+			<string>https://angular.io/api?query={query}</string>
 			<key>utf8</key>
 			<true/>
 		</dict>
