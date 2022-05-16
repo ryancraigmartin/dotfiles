@@ -42,15 +42,15 @@
     },
     "window" : {
       "color" : "#464D709E",
-      "paddingHorizontal" : 25,
+      "paddingHorizontal" : 15,
       "width" : 705,
       "borderPadding" : 37,
       "borderColor" : "#00000000",
       "blur" : 0,
-      "roundness" : 20,
+      "roundness" : 34,
       "paddingVertical" : 12
     },
-    "credit" : "Ryan Craig Martin \/ Doug C. Hardester",
+    "credit" : "Ryan Craig Martin",
     "separator" : {
       "color" : "#3A3E5700",
       "thickness" : 2
@@ -59,6 +59,6 @@
       "color" : "#656C9680",
       "thickness" : 11
     },
-    "name" : "RCM Palenight"
+    "name" : "Transparent Palepurple"
   }
 }

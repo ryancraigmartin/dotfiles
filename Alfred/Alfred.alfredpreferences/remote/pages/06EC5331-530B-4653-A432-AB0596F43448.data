@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>gridsize</key>
+	<integer>4</integer>
+	<key>hidelabels</key>
+	<false/>
 	<key>iconid</key>
 	<string>2E25A69C-361F-44DB-A6B9-86C2D7113F17</string>
 	<key>iconisuserspecified</key>
@@ -118,59 +122,146 @@
 		<dict/>
 		<dict/>
 		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+	</array>
+	<key>itemsall</key>
+	<array>
 		<dict>
 			<key>actionconfig</key>
 			<dict>
 				<key>url</key>
-				<string>https://www.alfredapp.com/help/</string>
+				<string>https://www.wikipedia.org</string>
 			</dict>
 			<key>actionuid</key>
 			<string>remote.alfred.openurl</string>
 			<key>buttoniconid</key>
-			<string>D3A73780-FF62-427C-BF70-E8784CAC61AF</string>
+			<string>7DE5E3B3-3FB4-4B1B-B23B-1944620766F2</string>
 			<key>buttonlabel</key>
-			<string>Alfred Support</string>
+			<string></string>
 			<key>itemuid</key>
-			<string>4CD84D0B-6977-4191-8E53-66DE6542E89A</string>
+			<string>41EF2965-1161-4C41-8A89-06EBBF4DE17A</string>
 		</dict>
 		<dict>
 			<key>actionconfig</key>
 			<dict>
 				<key>url</key>
-				<string>https://www.alfredapp.com/powerpack/buy/</string>
+				<string>https://twitter.com</string>
 			</dict>
 			<key>actionuid</key>
 			<string>remote.alfred.openurl</string>
 			<key>buttoniconid</key>
-			<string>41888ED2-33D6-4854-A42C-E049994EEBF4</string>
+			<string>DD4AAE96-B7EB-450C-A7B3-E10D770F6952</string>
 			<key>buttonlabel</key>
-			<string>Buy Alfred</string>
+			<string></string>
 			<key>itemuid</key>
-			<string>47ACAD5E-4F42-42A6-AE5D-32FEC5C11BE2</string>
+			<string>524120AE-422C-431B-99BF-584C250EC72E</string>
 		</dict>
 		<dict>
 			<key>actionconfig</key>
 			<dict>
-				<key>resultsubtitle</key>
-				<string>Look for help on '{query}'</string>
-				<key>resulttitle</key>
-				<string>Search Alfred Help</string>
-				<key>spaces</key>
-				<string>+</string>
 				<key>url</key>
-				<string>https://www.alfredapp.com/search/?q={query}</string>
-				<key>utf8</key>
-				<true/>
+				<string>https://www.facebook.com</string>
 			</dict>
 			<key>actionuid</key>
 			<string>remote.alfred.openurl</string>
 			<key>buttoniconid</key>
-			<string>92286776-7EE3-4E03-B8C3-26C76CCD31D0</string>
+			<string>AFD3745B-4DFB-4990-86CD-02335CD533E8</string>
 			<key>buttonlabel</key>
-			<string>Search Help</string>
+			<string></string>
 			<key>itemuid</key>
-			<string>C6C7FFAC-1CF1-4F6A-99DA-B35A8D8BB898</string>
+			<string>029D7047-A602-475F-9812-A7C47E448B78</string>
 		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>url</key>
+				<string>https://www.youtube.com</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.openurl</string>
+			<key>buttoniconid</key>
+			<string>E6386956-79B0-4261-81F2-DF09703947D1</string>
+			<key>buttonlabel</key>
+			<string></string>
+			<key>itemuid</key>
+			<string>36B14224-6584-4930-BE51-340BB67FD71A</string>
+		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>url</key>
+				<string>http://www.apple.com</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.openurl</string>
+			<key>buttoniconid</key>
+			<string>F07F1E8E-8A42-47C2-9141-93F9EADF4EBC</string>
+			<key>buttonlabel</key>
+			<string></string>
+			<key>itemuid</key>
+			<string>64E236BA-7A05-4ED0-99F1-A1440EF4BD65</string>
+		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>url</key>
+				<string>http://www.bbc.co.uk/news</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.openurl</string>
+			<key>buttoniconid</key>
+			<string>A59D2FC9-BAFC-4ED8-A635-239D3469F06C</string>
+			<key>buttonlabel</key>
+			<string></string>
+			<key>itemuid</key>
+			<string>325E0EBB-B757-4EF0-8C91-71D0D4003083</string>
+		</dict>
+		<dict>
+			<key>actionconfig</key>
+			<dict>
+				<key>url</key>
+				<string>https://www.alfredapp.com</string>
+			</dict>
+			<key>actionuid</key>
+			<string>remote.alfred.openurl</string>
+			<key>buttoniconid</key>
+			<string>51FEA9FE-6348-4B15-922C-B68D688C1C29</string>
+			<key>buttonlabel</key>
+			<string></string>
+			<key>itemuid</key>
+			<string>212C1976-81CB-4A43-BC07-644BE31BDDBB</string>
+		</dict>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
+		<dict/>
 		<dict/>
 	</array>
 	<key>subtitle</key>
